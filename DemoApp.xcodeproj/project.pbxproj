@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80135F0B28800643001D96D3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80135F0A28800643001D96D3 /* main.swift */; };
+		80135F1628800676001D96D3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80135F1028800676001D96D3 /* Logger.swift */; };
+		80135F1728800676001D96D3 /* SettingsWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80135F1128800676001D96D3 /* SettingsWriter.swift */; };
+		80135F1828800676001D96D3 /* Feature+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80135F1228800676001D96D3 /* Feature+Mapping.swift */; };
+		80135F1928800676001D96D3 /* Sources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80135F1428800676001D96D3 /* Sources.swift */; };
+		80135F1A28800676001D96D3 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80135F1528800676001D96D3 /* Settings.swift */; };
+		80135F1C288006A7001D96D3 /* AppSettingsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80135F1B288006A7001D96D3 /* AppSettingsStorage.swift */; };
+		80135F1E28800710001D96D3 /* AppSettingsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80135F1B288006A7001D96D3 /* AppSettingsStorage.swift */; };
+		80135F2028800732001D96D3 /* EnvironmentVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80135F1F28800732001D96D3 /* EnvironmentVariables.swift */; };
+		80135F212880073C001D96D3 /* EnvironmentVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80135F1F28800732001D96D3 /* EnvironmentVariables.swift */; };
+		80135F2328800768001D96D3 /* PlistReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80135F2228800768001D96D3 /* PlistReader.swift */; };
+		80135F2528800776001D96D3 /* EnvironmentVariables.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80135F2428800776001D96D3 /* EnvironmentVariables.plist */; };
+		80135F2628800780001D96D3 /* PlistReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80135F2228800768001D96D3 /* PlistReader.swift */; };
+		80135F2A28800926001D96D3 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 80135F2928800926001D96D3 /* Settings.bundle */; };
 		80CEBDE5288003CC002D5190 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CEBDE4288003CC002D5190 /* AppDelegate.swift */; };
 		80CEBDE9288003CC002D5190 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CEBDE8288003CC002D5190 /* ViewController.swift */; };
 		80CEBDEC288003CC002D5190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CEBDEA288003CC002D5190 /* Main.storyboard */; };
@@ -14,7 +28,32 @@
 		80CEBDF1288003CE002D5190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CEBDEF288003CE002D5190 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		80135F0628800643001D96D3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		80135F0828800643001D96D3 /* Settings Builder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Settings Builder"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80135F0A28800643001D96D3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		80135F1028800676001D96D3 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		80135F1128800676001D96D3 /* SettingsWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsWriter.swift; sourceTree = "<group>"; };
+		80135F1228800676001D96D3 /* Feature+Mapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Feature+Mapping.swift"; sourceTree = "<group>"; };
+		80135F1428800676001D96D3 /* Sources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sources.swift; sourceTree = "<group>"; };
+		80135F1528800676001D96D3 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		80135F1B288006A7001D96D3 /* AppSettingsStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettingsStorage.swift; sourceTree = "<group>"; };
+		80135F1F28800732001D96D3 /* EnvironmentVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentVariables.swift; sourceTree = "<group>"; };
+		80135F2228800768001D96D3 /* PlistReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistReader.swift; sourceTree = "<group>"; };
+		80135F2428800776001D96D3 /* EnvironmentVariables.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EnvironmentVariables.plist; sourceTree = "<group>"; };
+		80135F2928800926001D96D3 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		80135F2C28801093001D96D3 /* DemoApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoApp.entitlements; sourceTree = "<group>"; };
 		80CEBDE1288003CC002D5190 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CEBDE4288003CC002D5190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80CEBDE8288003CC002D5190 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,6 +64,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		80135F0528800643001D96D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80CEBDDE288003CC002D5190 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,10 +81,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80135F0928800643001D96D3 /* Settings Builder */ = {
+			isa = PBXGroup;
+			children = (
+				80135F0A28800643001D96D3 /* main.swift */,
+				80135F0F28800676001D96D3 /* Helpers */,
+				80135F1328800676001D96D3 /* Models */,
+			);
+			path = "Settings Builder";
+			sourceTree = "<group>";
+		};
+		80135F0F28800676001D96D3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				80135F1028800676001D96D3 /* Logger.swift */,
+				80135F1128800676001D96D3 /* SettingsWriter.swift */,
+				80135F1228800676001D96D3 /* Feature+Mapping.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		80135F1328800676001D96D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				80135F1428800676001D96D3 /* Sources.swift */,
+				80135F1528800676001D96D3 /* Settings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		80135F1D288006CC001D96D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80135F2728800897001D96D3 /* Base */,
+				80135F2428800776001D96D3 /* EnvironmentVariables.plist */,
+				80135F2928800926001D96D3 /* Settings.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		80135F2728800897001D96D3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				80CEBDF2288003CE002D5190 /* Info.plist */,
+				80CEBDED288003CE002D5190 /* Assets.xcassets */,
+				80CEBDEF288003CE002D5190 /* LaunchScreen.storyboard */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		80135F28288008C0001D96D3 /* SettingsHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				80135F1B288006A7001D96D3 /* AppSettingsStorage.swift */,
+				80135F1F28800732001D96D3 /* EnvironmentVariables.swift */,
+				80135F2228800768001D96D3 /* PlistReader.swift */,
+			);
+			path = SettingsHelpers;
+			sourceTree = "<group>";
+		};
+		80135F2B28800C15001D96D3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				80CEBDE8288003CC002D5190 /* ViewController.swift */,
+				80CEBDEA288003CC002D5190 /* Main.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		80CEBDD8288003CC002D5190 = {
 			isa = PBXGroup;
 			children = (
 				80CEBDE3288003CC002D5190 /* DemoApp */,
+				80135F0928800643001D96D3 /* Settings Builder */,
 				80CEBDE2288003CC002D5190 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				80CEBDE1288003CC002D5190 /* DemoApp.app */,
+				80135F0828800643001D96D3 /* Settings Builder */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,12 +170,11 @@
 		80CEBDE3288003CC002D5190 /* DemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				80135F2C28801093001D96D3 /* DemoApp.entitlements */,
 				80CEBDE4288003CC002D5190 /* AppDelegate.swift */,
-				80CEBDE8288003CC002D5190 /* ViewController.swift */,
-				80CEBDEA288003CC002D5190 /* Main.storyboard */,
-				80CEBDED288003CE002D5190 /* Assets.xcassets */,
-				80CEBDEF288003CE002D5190 /* LaunchScreen.storyboard */,
-				80CEBDF2288003CE002D5190 /* Info.plist */,
+				80135F2B28800C15001D96D3 /* ViewController */,
+				80135F1D288006CC001D96D3 /* Resources */,
+				80135F28288008C0001D96D3 /* SettingsHelpers */,
 			);
 			path = DemoApp;
 			sourceTree = "<group>";
@@ -67,10 +182,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		80135F0728800643001D96D3 /* Settings Builder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80135F0E28800643001D96D3 /* Build configuration list for PBXNativeTarget "Settings Builder" */;
+			buildPhases = (
+				80135F0428800643001D96D3 /* Sources */,
+				80135F0528800643001D96D3 /* Frameworks */,
+				80135F0628800643001D96D3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Settings Builder";
+			productName = "Settings Builder";
+			productReference = 80135F0828800643001D96D3 /* Settings Builder */;
+			productType = "com.apple.product-type.tool";
+		};
 		80CEBDE0288003CC002D5190 /* DemoApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80CEBDF5288003CE002D5190 /* Build configuration list for PBXNativeTarget "DemoApp" */;
 			buildPhases = (
+				80135F2D28801272001D96D3 /* Run Settings Builder */,
 				80CEBDDD288003CC002D5190 /* Sources */,
 				80CEBDDE288003CC002D5190 /* Frameworks */,
 				80CEBDDF288003CC002D5190 /* Resources */,
@@ -94,6 +227,9 @@
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
+					80135F0728800643001D96D3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
 					80CEBDE0288003CC002D5190 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -113,6 +249,7 @@
 			projectRoot = "";
 			targets = (
 				80CEBDE0288003CC002D5190 /* DemoApp */,
+				80135F0728800643001D96D3 /* Settings Builder */,
 			);
 		};
 /* End PBXProject section */
@@ -124,19 +261,61 @@
 			files = (
 				80CEBDF1288003CE002D5190 /* LaunchScreen.storyboard in Resources */,
 				80CEBDEE288003CE002D5190 /* Assets.xcassets in Resources */,
+				80135F2A28800926001D96D3 /* Settings.bundle in Resources */,
+				80135F2528800776001D96D3 /* EnvironmentVariables.plist in Resources */,
 				80CEBDEC288003CC002D5190 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		80135F2D28801272001D96D3 /* Run Settings Builder */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Settings Builder";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "xcodebuild -configuration ${CONFIGURATION} -target \"Settings Builder\"\n\"build/${CONFIGURATION}/Settings Builder\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		80135F0428800643001D96D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80135F1E28800710001D96D3 /* AppSettingsStorage.swift in Sources */,
+				80135F1A28800676001D96D3 /* Settings.swift in Sources */,
+				80135F1728800676001D96D3 /* SettingsWriter.swift in Sources */,
+				80135F2628800780001D96D3 /* PlistReader.swift in Sources */,
+				80135F212880073C001D96D3 /* EnvironmentVariables.swift in Sources */,
+				80135F1928800676001D96D3 /* Sources.swift in Sources */,
+				80135F0B28800643001D96D3 /* main.swift in Sources */,
+				80135F1628800676001D96D3 /* Logger.swift in Sources */,
+				80135F1828800676001D96D3 /* Feature+Mapping.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80CEBDDD288003CC002D5190 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80135F1C288006A7001D96D3 /* AppSettingsStorage.swift in Sources */,
 				80CEBDE9288003CC002D5190 /* ViewController.swift in Sources */,
+				80135F2328800768001D96D3 /* PlistReader.swift in Sources */,
 				80CEBDE5288003CC002D5190 /* AppDelegate.swift in Sources */,
+				80135F2028800732001D96D3 /* EnvironmentVariables.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +341,28 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		80135F0C28800643001D96D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		80135F0D28800643001D96D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		80CEBDF3288003CE002D5190 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -281,10 +482,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DemoApp/DemoApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J776JXPJ2V;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DemoApp/Info.plist;
+				INFOPLIST_FILE = DemoApp/Resources/Base/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -308,10 +511,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DemoApp/DemoApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DemoApp/Info.plist;
+				INFOPLIST_FILE = DemoApp/Resources/Base/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -333,6 +537,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		80135F0E28800643001D96D3 /* Build configuration list for PBXNativeTarget "Settings Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80135F0C28800643001D96D3 /* Debug */,
+				80135F0D28800643001D96D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		80CEBDDC288003CC002D5190 /* Build configuration list for PBXProject "DemoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
