@@ -28,6 +28,16 @@
 		80CEBDF1288003CE002D5190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CEBDEF288003CE002D5190 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		80FA3DA428845B710088F4AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80CEBDD9288003CC002D5190 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80135F0728800643001D96D3;
+			remoteInfo = "Settings Builder";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		80135F0628800643001D96D3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -211,6 +221,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				80FA3DA528845B710088F4AC /* PBXTargetDependency */,
 			);
 			name = DemoApp;
 			productName = DemoApp;
@@ -286,7 +297,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "xcodebuild -configuration ${CONFIGURATION} -target \"Settings Builder\"\n\"build/${CONFIGURATION}/Settings Builder\"\n";
+			shellScript = "${BUILD_ROOT}/${CONFIGURATION}/Settings\\ Builder\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -321,6 +332,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		80FA3DA528845B710088F4AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80135F0728800643001D96D3 /* Settings Builder */;
+			targetProxy = 80FA3DA428845B710088F4AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		80CEBDEA288003CC002D5190 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -348,6 +367,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -359,6 +379,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
